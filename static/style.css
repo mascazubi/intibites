@@ -64,17 +64,17 @@ p {
     --distance: 10px;
 }
 .fruit:nth-child(n) {
-    animation: preloader var(--timing) ease-in-out alternate infinite;
+    animation: bounce var(--timing) ease-in-out alternate infinite;
 }
 .fruit:nth-child(2n) {
-    animation: preloader var(--timing) ease-in-out alternate .5s infinite;
+    animation: bounce var(--timing) ease-in-out alternate .5s infinite;
 }
 
 .fruit:nth-child(3n) {
-    animation: preloader var(--timing) ease-in-out alternate .8s infinite;
+    animation: bounce var(--timing) ease-in-out alternate .8s infinite;
 }
 
-@keyframes preloader {
+@keyframes bounce {
     100% { transform: translateY(var(--distance)); }
 }
 @media (prefers-reduced-motion) {
