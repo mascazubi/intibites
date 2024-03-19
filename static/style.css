@@ -14,7 +14,7 @@ body {
   font-style: normal;
   display: flex;
   flex-direction: column;
-  gap: 4em;
+  gap: clamp(6vh, 8rem,4rem);;
   justify-content: center;
   align-items: center;
   height: 100dvh;
@@ -44,3 +44,43 @@ p {
     white-space: nowrap;
     width: 1px;
   }
+.fruits {
+    font-size: max(2vw, 2rem);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:max(2vw, 0.75rem);
+	overflow: hidden;
+    width: 100%;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;  
+	z-index: 100000;
+    padding-block: 1.5rem;
+}
+.fruit {
+    --size: 5px;
+    --timing: .8s;
+    --distance: 10px;
+}
+.fruit:nth-child(n) {
+    animation: preloader var(--timing) ease-in-out alternate infinite;
+}
+.fruit:nth-child(2n) {
+    animation: preloader var(--timing) ease-in-out alternate .5s infinite;
+}
+
+.fruit:nth-child(3n) {
+    animation: preloader var(--timing) ease-in-out alternate .8s infinite;
+}
+
+@keyframes preloader {
+    100% { transform: translateY(var(--distance)); }
+}
+@media (prefers-reduced-motion) {
+    .fruit {
+        --distance: 0px;
+    }
+}
+  
+  
