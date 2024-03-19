@@ -14,7 +14,7 @@ body {
   font-style: normal;
   display: flex;
   flex-direction: column;
-  gap: clamp(6vh, 8rem,4rem);;
+  gap: clamp(5vh, 1rem,8rem);
   justify-content: center;
   align-items: center;
   height: 100dvh;
