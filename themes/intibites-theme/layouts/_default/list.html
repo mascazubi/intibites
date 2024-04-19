@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1 class="list-h1">{{ .Title }}</h1>
+  {{ .Content }}
+  <section class="products">
+    {{ range .Pages }}
+      <div class="product">
+        <img src="{{ .Params.thumbnail }}" alt="">
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <p>{{ .Summary }}</p>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

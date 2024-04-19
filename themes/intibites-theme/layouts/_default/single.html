@@ -1,0 +1,154 @@
+{{ define "main" }}
+
+  <div class="col left">
+    <h1 class="single-h1">{{ .Title }}</h1>
+    <span class="subtitle">{{ .Params.subtitle }}</span>
+    <img class="mobile-img" src="{{ .Params.package }}" alt="">
+    <p>{{ .Content }}</p>
+    <h2>Presentaciones</h2>
+    <ul class="presentations">
+      {{ with .Params.pres }}
+        {{ range . }}
+        <li><span>{{ .cut }}</span>{{ .weight }}</li>
+        {{ end }}
+      {{ end }}
+    </ul>
+    <h2>Ingredientes</h2>
+    <p>{{ .Params.ingridients }}</p>
+    <h2>Informacion Nutricional</h2>
+ 
+    <div class="performance-facts">
+      <header class="performance-facts__header">
+        <p>Tamano por porcion 30g</p>
+      </header>
+      <table class="performance-facts__table">
+        <tbody>
+          <tr>
+            <th>
+              <b>Energia</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.energy.unit }}kJ
+            </td>
+            <td>
+              {{ .Params.energy.cal }} Cal
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Energia de Grasa</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.energyGrasa.unit }}kJ
+            </td>
+            <td>
+              {{ .Params.energyGrasa.cal }} Cal
+            </td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <th>
+            </th>
+            <td>
+              % Valor diario*
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Grasa Total</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.grasaTotal.unit }}g
+            </td>
+            <td>
+              0%
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Colesterol</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.colesterol.unit }}mg
+            </td>
+            <td>
+              {{ .Params.colesterol.cal }}%
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Sodio</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.sodio.unit }}mg
+            </td>
+            <td>
+              {{ .Params.sodio.cal }}%
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Carbohidratos Totales</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.carb.unit }}g
+            </td>
+            <td>
+              {{ .Params.carb.cal }}%
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Fibra</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.fibra.unit }}
+            </td>
+            <td>
+              {{ .Params.fibra.cal }}%
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Azucares</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.azucar.unit }}g
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>Proteinas</b>
+            </th>
+            <td class="text-right">
+              {{ .Params.proteina.unit }}g
+            </td>
+            <td>
+              {{ .Params.proteina.cal }}%
+            </td>
+          </tr>
+          <tr>
+            <th colspan="4" class="small-info">
+              * Valores Diario Requerido en base a una dieta de 8380kJ (2000 kca)
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <img class="mobile-img" src="{{ .Params.decoration }}" alt="">
+  </div>
+  <div class="col right">
+    <img src="{{ .Params.package }}" alt="">
+    <img src="{{ .Params.decoration }}" alt="">
+  </div>
+
+  <!-- {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
+
+  <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
+{{ end }}

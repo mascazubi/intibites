@@ -1,0 +1,23 @@
+baseURL = 'https://intibites.com/'
+languageCode = 'es-ec'
+title = 'INTIBITES'
+
+[[menus.main]]
+name = 'Productos'
+pageRef = '/productos'
+weight = 1
+
+[[menus.main]]
+name = 'Materia Prima'
+pageRef = '/materia-prima'
+weight = 2
+
+[[menus.main]]
+name = 'Nosotros'
+pageRef = '/nosotros'
+weight = 3
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productos on INTIBITES - Productos deshidratados saludables y seguros</title>
+    <link>http://192.168.147.219:1313/productos/</link>
+    <description>Recent content in Productos on INTIBITES - Productos deshidratados saludables y seguros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ec</language>
+    <lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://192.168.147.219:1313/productos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pina</title>
+      <link>http://192.168.147.219:1313/productos/pina/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://192.168.147.219:1313/productos/pina/</guid>
+      <description>Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.</description>
+    </item>
+    <item>
+      <title>Uva</title>
+      <link>http://192.168.147.219:1313/productos/uva/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://192.168.147.219:1313/productos/uva/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet paredriatur adipisicing Lorem.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

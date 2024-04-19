@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1 class="basic-h1">{{ .Title }}</h1>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  <section class="features">
+    {{ with .Params.features }}
+    {{ range . }}
+    <div class="feature">
+      <div class="feature-content">
+        <h2>{{ .heading }}</h2>
+        <p>{{ .content }}</p>
+      </div>
+      <img class="feature-image" alt="" src="{{ .image }}">
+    </div>
+    {{ end }}
+  {{ end }}
+  </section>
+{{ end }}

@@ -1,0 +1,15 @@
+baseURL: https://intibites.com/
+languageCode: es-ec
+# params:
+#   contact:
+#     email: info@example.org
+#     phone: +1 202-555-1212
+#   subtitle: The Best Widgets on Earth
+title: INTIBITES - Productos deshidratados saludables y seguros
+theme: intibites-theme
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+

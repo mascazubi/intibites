@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="description" content="Snacks saludables deshidratados con energia solar, 100% naturales, sin azucar anadida, ni additivos. Usamos la materia prima mas sabrosa y de alta calidad. Hecho en Ecuador!"/>
+<meta property="og:site_name" content="INTIBITES" />
+<meta property="og:url" content="https://intibites.com" />
+<meta property="og:title" content="Homepage | INTIBITES" />
+<meta property="og:description" content="Snacks saludables deshidratados con energia solar, 100% naturales, sin azucar anadida, ni additivos. Hecho en Ecuador!" />
+<meta property="og:image:url" content="/static/img/og-image.png" />
+<meta name='apple-mobile-web-app-title' content='INTIBITES'>
+<meta name='theme-color' content='#ffffff'>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 64x64 128x128 256x256" type="image/png">
+<link rel="apple-touch-icon-precomposed" href="/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<!-- <link rel="alternate" href="https://intibites.com/" hreflang="x-default" /> -->
+
+<style>
+    :root {
+        --page-color: {{ .Params.page_color }};
+        --text-color: {{ .Params.text_color }};
+    }
+</style>
+
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
