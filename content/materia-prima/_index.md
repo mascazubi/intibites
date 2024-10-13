@@ -6,6 +6,7 @@ layout = 'basic'
 [params]
     page_color = '#00520D'
     text_color = '#FFFFFF'
+    logo_text = '#00520D'
 [[features]]
     heading = 'Pina MD2'
     content = 'Content for this feature'

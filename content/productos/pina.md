@@ -6,6 +6,7 @@ tags = ['fruta','pina']
 [params]
 page_color = '#FFB800'
 text_color = '#00520D'
+logo_text = '#FFB800'
 thumbnail = '/images/pina.png'
 package = '/images/pina.png'
 decoration = '/images/pina.png'

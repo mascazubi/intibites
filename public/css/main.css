@@ -7,7 +7,7 @@ body {
   font-family: Rubik, sans-serif;
   line-height: 1.5;
   margin: 0;
-  background: var(--page-color, #008000);
+  background: var(--page-color, #00520D);
   position: relative;
 }
 
@@ -96,9 +96,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--page-color, black);
+    background: var(--logo-text);
+    backdrop-filter: blur(20px);
     width: 100%;
-    border-top: 1px solid #FFF6;FFFFFF
+    border-top: 1px solid #FFF6;
     box-shadow: 0px -4px 20px #0000003D;
   }
   .nav-bottom nav > ul {
@@ -121,7 +122,7 @@ nav {
   nav > ul li > a:hover,
   .active {
   background-color: inherit;
-  color: var(--page-color);
+  color: var(--log-text);
 }
 }
 
@@ -143,7 +144,7 @@ nav > ul li > a {
 nav > ul li > a:hover,
 .active {
   background-color: var(--text-color);
-  color: var(--page-color);
+  color: var(--logo-text);
 }
 
 .list-h1,
@@ -213,7 +214,7 @@ nav > ul li > a:hover,
 
 .logo {
   --logo-background: var(--text-color, white);
-  --logo-foreground: var(--page-color, black);
+  --logo-foreground: var(--logo-text, black);
   max-width: 24rem;
   min-width: 14rem;
   width: 100%;

@@ -19,8 +19,9 @@
 
 <style>
     :root {
-        --page-color: {{ .Params.page_color }};
-        --text-color: {{ .Params.text_color }};
+        --page-color: {{ .Params.page_color  | safeCSS }};
+        --text-color: {{ .Params.text_color  | safeCSS}};
+        --logo-text: {{ .Params.logo_text  | safeCSS}};
     }
 </style>
 
