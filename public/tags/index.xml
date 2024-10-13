@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on INTIBITES - Productos deshidratados saludables y seguros</title>
-    <link>http://192.168.147.219:1313/tags/</link>
+    <link>http://192.168.147.237:1313/tags/</link>
     <description>Recent content in Tags on INTIBITES - Productos deshidratados saludables y seguros</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ec</language>
     <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
-    <atom:link href="http://192.168.147.219:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.147.237:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blue</title>
-      <link>http://192.168.147.219:1313/tags/blue/</link>
+      <link>http://192.168.147.237:1313/tags/blue/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://192.168.147.219:1313/tags/blue/</guid>
+      <guid>http://192.168.147.237:1313/tags/blue/</guid>
       <description></description>
     </item>
     <item>
       <title>Green</title>
-      <link>http://192.168.147.219:1313/tags/green/</link>
+      <link>http://192.168.147.237:1313/tags/green/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://192.168.147.219:1313/tags/green/</guid>
+      <guid>http://192.168.147.237:1313/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>http://192.168.147.219:1313/tags/red/</link>
+      <link>http://192.168.147.237:1313/tags/red/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://192.168.147.219:1313/tags/red/</guid>
+      <guid>http://192.168.147.237:1313/tags/red/</guid>
       <description></description>
     </item>
     <item>
       <title>Fruta</title>
-      <link>http://192.168.147.219:1313/tags/fruta/</link>
+      <link>http://192.168.147.237:1313/tags/fruta/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>http://192.168.147.219:1313/tags/fruta/</guid>
+      <guid>http://192.168.147.237:1313/tags/fruta/</guid>
       <description></description>
     </item>
     <item>
       <title>Pina</title>
-      <link>http://192.168.147.219:1313/tags/pina/</link>
+      <link>http://192.168.147.237:1313/tags/pina/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>http://192.168.147.219:1313/tags/pina/</guid>
+      <guid>http://192.168.147.237:1313/tags/pina/</guid>
       <description></description>
     </item>
     <item>
       <title>Uva</title>
-      <link>http://192.168.147.219:1313/tags/uva/</link>
+      <link>http://192.168.147.237:1313/tags/uva/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>http://192.168.147.219:1313/tags/uva/</guid>
+      <guid>http://192.168.147.237:1313/tags/uva/</guid>
       <description></description>
     </item>
   </channel>

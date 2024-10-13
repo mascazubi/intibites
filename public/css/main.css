@@ -7,7 +7,7 @@ body {
   font-family: Rubik, sans-serif;
   line-height: 1.5;
   margin: 0;
-  background-color: var(--page-color, #008000);
+  background: var(--page-color, #008000);
   position: relative;
 }
 
@@ -98,7 +98,7 @@ nav {
     align-items: center;
     background-color: var(--page-color, black);
     width: 100%;
-    border-top: 1px solid #FFF6;
+    border-top: 1px solid #FFF6;FFFFFF
     box-shadow: 0px -4px 20px #0000003D;
   }
   .nav-bottom nav > ul {

@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.147.219:1313/tags/blue/</loc>
+    <loc>http://192.168.147.237:1313/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/tags/green/</loc>
+    <loc>http://192.168.147.237:1313/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/posts/post-3/</loc>
+    <loc>http://192.168.147.237:1313/posts/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/tags/red/</loc>
+    <loc>http://192.168.147.237:1313/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/tags/</loc>
+    <loc>http://192.168.147.237:1313/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/posts/post-2/</loc>
+    <loc>http://192.168.147.237:1313/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/tags/fruta/</loc>
+    <loc>http://192.168.147.237:1313/tags/fruta/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/tags/pina/</loc>
+    <loc>http://192.168.147.237:1313/tags/pina/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/productos/pina/</loc>
+    <loc>http://192.168.147.237:1313/productos/pina/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/posts/post-1/</loc>
+    <loc>http://192.168.147.237:1313/posts/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/tags/uva/</loc>
+    <loc>http://192.168.147.237:1313/tags/uva/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/productos/uva/</loc>
+    <loc>http://192.168.147.237:1313/productos/uva/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/</loc>
+    <loc>http://192.168.147.237:1313/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/materia-prima/</loc>
+    <loc>http://192.168.147.237:1313/materia-prima/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/nosotros/</loc>
+    <loc>http://192.168.147.237:1313/nosotros/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/posts/</loc>
+    <loc>http://192.168.147.237:1313/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/productos/</loc>
+    <loc>http://192.168.147.237:1313/productos/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://192.168.147.219:1313/categories/</loc>
+    <loc>http://192.168.147.237:1313/categories/</loc>
   </url>
 </urlset>
